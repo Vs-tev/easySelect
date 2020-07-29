@@ -272,37 +272,4 @@
     }
 }(jQuery));
 
-     $("#demo").easySelect({
-         buttons: false,
-         search: false,
-         placeholder: 'Choose Country',
-         placeholderColor: '#524781',
-         selectColor: '#524781',
-         itemTitle: 'Countrys selected',
-         showEachItem: true,
-         width: '100%',
-         dropdownMaxHeight: '450px',
-     })
-     $("#demo1").easySelect({
-         buttons: false, 
-         search: true,
-         placeholder: 'Choose color',
-         placeholderColor: 'violet',
-         selectColor: 'lila',
-         itemTitle: 'Color selected',
-         showEachItem: true,
-         width: '100%',
-         dropdownMaxHeight: '450px',
-     })
-
-     $("#demo3").easySelect({
-         buttons: true, // 
-         search: true,
-         placeholder: 'Pick Car',
-         placeholderColor: 'green',
-         selectColor: '#524781',
-         itemTitle: 'Car selected',
-         showEachItem: true,
-         width: '100%',
-         dropdownMaxHeight: '450px',
-     })
+    
